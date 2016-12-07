@@ -49,6 +49,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(260, 76);
             this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "{\r\n  \"Vorname\": \"Frodo\",\r\n  \"Nachname\": \"Beutlin\",\r\n  \"Alter\": 33\r\n}";
             // 
             // Form1
             // 

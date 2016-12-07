@@ -29,7 +29,7 @@ namespace JsonBeispiel
             DataContractJsonSerializer ser = new DataContractJsonSerializer(typeof(Person));
             Person p = ser.ReadObject(ms) as Person;
 
-            //MessageBox.Show("Name: " + p.Vorname + " Familie: " + p.Familienname);
+            MessageBox.Show("Name: " + p.Vorname + " " + p.Familienname);
          }
     }
 }

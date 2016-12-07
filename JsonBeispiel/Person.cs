@@ -7,7 +7,16 @@ using System.Runtime.Serialization;
 
 namespace JsonBeispiel
 {
+    [DataContract]
     class Person
     {
+        [DataMember]
+        public string Vorname { get; set; }
+
+        [DataMember(Name = "Nachname")]
+        public string Familienname { get; set; }
+
+        [DataMember]
+        public int Alter { get; set; }
     }
 }
